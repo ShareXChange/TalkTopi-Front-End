@@ -9,7 +9,6 @@ import Like from "../../../assets/images/like.png";
 function LatestPage(): React.ReactElement {
     return(
         <S.View>
-            <S.Logo>로고</S.Logo>
             <S.CategoryWrapper>
                 <S.CategoryItem>
                     <S.ItemTitle>인기반</S.ItemTitle>

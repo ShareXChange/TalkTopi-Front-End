@@ -10,13 +10,6 @@ export const View = styled.div`
     flex-direction: column;
 `;
 
-export const Logo = styled.div`
-    width: 100px;
-    height: 24px;
-    background-color: lightgray;
-    text-align: center;
-`;
-
 export const CategoryWrapper = styled.div`
     width: 100%;
     height: 48px;

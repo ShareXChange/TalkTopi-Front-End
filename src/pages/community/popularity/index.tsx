@@ -6,6 +6,7 @@ import * as S from "./style";
 import User from "../../../assets/images/익명.png";
 import Comment from "../../../assets/images/chat.png";
 import Like from "../../../assets/images/like.png";
+import AddBtn from "../../../assets/images/add.png";
 
 function PopularityPage(): React.ReactElement {
     // const [list, setList] = useState([]);
@@ -24,7 +25,6 @@ function PopularityPage(): React.ReactElement {
     // })
     return(
         <S.View>
-            <S.Logo>로고</S.Logo>
             <S.CategoryWrapper>
                 <S.CategoryItem>
                     <S.ItemTitle>인기반</S.ItemTitle>
@@ -67,6 +67,76 @@ function PopularityPage(): React.ReactElement {
                     <S.Num>10</S.Num>
                 </S.AlarmContainer>
             </S.Context>
+            <S.WritingComponents>
+                <S.UserImg src={User} />
+                <S.UserContainer>
+                    <S.UserName>임세현</S.UserName>
+                    <S.GAContainer>
+                        <S.Gender>남자,</S.Gender>
+                        <S.Age>16세</S.Age>
+                    </S.GAContainer>
+                </S.UserContainer>
+            </S.WritingComponents>
+            <S.Context>
+            이건 그냥 아무말이나 쓰는거에요 이건 그냥 
+아무말이나 쓰는거에요 이건 그냥 아무말이나 쓰는거에요 이건 그냥 
+아무말이나 쓰는거에요 이건 그냥 아무말이나 쓰는거에요 이건 그냥 
+아무말이나 쓰는거에요
+                <S.AlarmContainer>
+                    <S.Img src={Comment} />
+                    <S.Num>2</S.Num>
+                    <S.Img src={Like} />
+                    <S.Num>10</S.Num>
+                </S.AlarmContainer>
+            </S.Context>
+            <S.WritingComponents>
+                <S.UserImg src={User} />
+                <S.UserContainer>
+                    <S.UserName>임세현</S.UserName>
+                    <S.GAContainer>
+                        <S.Gender>남자,</S.Gender>
+                        <S.Age>16세</S.Age>
+                    </S.GAContainer>
+                </S.UserContainer>
+            </S.WritingComponents>
+            <S.Context>
+            이건 그냥 아무말이나 쓰는거에요 이건 그냥 
+아무말이나 쓰는거에요 이건 그냥 아무말이나 쓰는거에요 이건 그냥 
+아무말이나 쓰는거에요 이건 그냥 아무말이나 쓰는거에요 이건 그냥 
+아무말이나 쓰는거에요
+                <S.AlarmContainer>
+                    <S.Img src={Comment} />
+                    <S.Num>2</S.Num>
+                    <S.Img src={Like} />
+                    <S.Num>10</S.Num>
+                </S.AlarmContainer>
+            </S.Context>
+            <S.WritingComponents>
+                <S.UserImg src={User} />
+                <S.UserContainer>
+                    <S.UserName>임세현</S.UserName>
+                    <S.GAContainer>
+                        <S.Gender>남자,</S.Gender>
+                        <S.Age>16세</S.Age>
+                    </S.GAContainer>
+                </S.UserContainer>
+            </S.WritingComponents>
+            <S.Context>
+            이건 그냥 아무말이나 쓰는거에요 이건 그냥 
+아무말이나 쓰는거에요 이건 그냥 아무말이나 쓰는거에요 이건 그냥 
+아무말이나 쓰는거에요 이건 그냥 아무말이나 쓰는거에요 이건 그냥 
+아무말이나 쓰는거에요
+                <S.AlarmContainer>
+                    <S.Img src={Comment} />
+                    <S.Num>2</S.Num>
+                    <S.Img src={Like} />
+                    <S.Num>10</S.Num>
+                </S.AlarmContainer>
+            </S.Context>
+            
+            <S.AddBtn>
+                <img src={AddBtn} />
+            </S.AddBtn>
         </S.View>
     );
 }

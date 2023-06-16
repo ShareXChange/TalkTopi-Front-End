@@ -10,13 +10,6 @@ export const View = styled.div`
     flex-direction: column;
 `;
 
-export const Logo = styled.div`
-    width: 100px;
-    height: 24px;
-    background-color: lightgray;
-    text-align: center;
-`;
-
 export const CategoryWrapper = styled.div`
     width: 100%;
     height: 48px;
@@ -112,4 +105,11 @@ export const Num = styled.div`
     color: #666680;
     font-size: 12px;
     margin-right: 16px;
+`;
+
+export const AddBtn = styled.div`
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
 `;
